@@ -1,9 +1,9 @@
 const {cmd , commands} = require('../command')
 
 cmd({
-    pattern: "menu",
+    pattern: "menulist",
     desc: "menu the bot",
-    category: "menu1",
+    category: "menu",
     react: "👋",
     filename: __filename
 },
