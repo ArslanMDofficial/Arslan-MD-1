@@ -10,8 +10,9 @@ cmd({
 
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
+let dec ` I am ArslanMD-BOT `
 
-await conn.sendMessage(from,{video:{url: `https://files.catbox.moe/h6ru3v.mp4`},mimetype:"video/mp4"},{quoted:mek});
+await conn.sendMessage(from,{video:{url: `https://files.catbox.moe/h6ru3v.mp4`},mimetype:"video/mp4"},{dec:caption},{quoted:mek});
 
 }catch(e){
 console.log(e)
