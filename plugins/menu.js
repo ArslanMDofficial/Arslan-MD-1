@@ -123,7 +123,7 @@ let dec = `
 
 > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ArslanMDッ*
 `
-await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/zw6rsz.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{video:{url: downloadUrl},mimetype:"video/mp4"},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
