@@ -123,7 +123,7 @@ let dec = `
 
 > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ArslanMDッ*
 `
-await conn.sendMessage(from,{video:{url: `https://files.catbox.moe/jops95.mp4`},mimetype:"video/mp4"},{quoted:mek});
+await conn.sendMessage(from,{video:{url: `https://github.com/ArslanMDofficial/Arslan-MD-1/blob/main/media/VID-20241212-WA0001.mp4`},mimetype:"video/mp4"},{quoted:mek});
 
 }catch(e){
 console.log(e)
