@@ -4,7 +4,31 @@ cmd({
     pattern: "menu",
     desc: "menu the bot",
     category: "menu",
-    react: "💋",
+    react: "🪄",
+    filename: __filename
+},
+
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+
+await conn.sendMessage(from,{video:{url: `https://files.catbox.moe/h6ru3v.mp4`},mimetype:"video/mp4"},{quoted:mek});
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
+
+
+
+
+const {cmd , commands} = require('../command')
+
+cmd({
+    pattern: "menu",
+    desc: "menu the bot",
+    category: "menu",
+    react: "🪄",
     filename: __filename
 },
 
@@ -123,7 +147,7 @@ let dec = `
 
 > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ArslanMDッ*
 `
-await conn.sendMessage(from,{video:{url: `https://github.com/ArslanMDofficial/Arslan-MD-1/blob/main/media/VID-20241212-WA0001.mp4`},mimetype:"video/mp4"},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/zw6rsz.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
