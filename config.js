@@ -17,7 +17,7 @@ module.exports = {
     ALIVE_MSG: process.env.ALIVE_MSG || "HII DEAR IM ArslanMD AND MY BOT IS ONLINE I'M Arslan-MD WHATSAPP BOT 😊♻️",
     ANTI_LINK: process.env.ANTI_LINK || "true",
     ANTI_BAD: process.env.ANTI_BAD || "true",
-    PREFIX: process.env.PREFIX || ".",
+    PREFIX: process.env.PREFIX || ". , ",
     FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
     AUTO_REACT: process.env.AUTO_REACT || "true",
     HEART_REACT: process.env.HEART_REACT || "true",
